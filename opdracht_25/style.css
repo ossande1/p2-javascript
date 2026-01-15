@@ -1,0 +1,9 @@
+#toon{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+body{
+    transition: 0.3s;
+}
