@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="overlay" onclick="off()">
+  <div id="text">Hellaas je bent te jong.</div>
+</div>
+
+    <h2>Checker</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Go next</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Go to next</h2>
+    </div>
+    <div class="modal-body">
+      <p>Hoe oud ben je?</p>
+      <input id="age" type="number">
+      <button onclick="pop()">Ga door</button>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
